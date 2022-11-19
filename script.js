@@ -1,11 +1,20 @@
+
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
+let totalCount = 0
+let totalEl = document.getElementById("total-el")
 
 function increment() {
     count += 1
-    countEl.textContent = count
+    countEl.textContent = count  
 }
+
+function total() {  
+    totalCount += 1
+    totalEl.textContent = count
+}
+
 
 function save() {
     let countStr = count + " - "
@@ -13,3 +22,4 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+

@@ -10,9 +10,11 @@
         <div class="main-container">
             <h1>Persons Entered</h1>
             <h2 id="count-el">0</h2>
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="increment-btn" onclick="increment(); total()">INCREMENT</button>
             <button id="save-btn" onclick="save()">SAVE</button>
             <p id="save-el">Previous entries: </p>
+            <h3>Total persons inside:</h3>
+            <button id="total-el" onclick="total()">0</button>
         </div>
         <script src="script.js"></script>
     </body>
