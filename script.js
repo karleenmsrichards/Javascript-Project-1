@@ -12,7 +12,6 @@ function increment() {
 
 function total() {  
     totalCount += 1
-    totalEl.textContent = count
 }
 
 
